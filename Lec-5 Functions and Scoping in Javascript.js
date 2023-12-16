@@ -57,7 +57,9 @@ console.log(x);
 //Variables declared by var are available throughout the function in which they're declared.
 
 //We can declare a variable again 
-//even if it has been defined previously in the same scope.
+//even if it has been defined previously in the same scope using var keyword.
+
+//but let is used nowadays because var creates confusion.
 
 {
     var y=20;
