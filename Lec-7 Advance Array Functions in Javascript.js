@@ -69,6 +69,11 @@ const pos=arr.forEach((value,index)=>{ //forEach fxn doesn't return any value
 console.log(pos);
 
 
+// for each ke pass access hota haa array,index aur value ka!
+arr.forEach(item,index,arr){
+    arr[index]=item+5;
+}
+console.log(arr); // values abb 5 badh ke ayegi --> original array meh hi
 //map function
 
 const mprint=arr.map((value,index)=>{
